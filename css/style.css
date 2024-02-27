@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(195, 224, 224);
+}
+main{
+display: grid;
+gap: 10px;
+   grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+   width: 80vw;
+   margin: auto;
+}
+
+.box {
+    background-color: rgb(31, 82, 68);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 19ch;
+}
+
+#no1 {
+    grid-area: 1/1/1/2;
+}
+#no2 {
+   grid-area: 3/ 4/ 3/ 1;
+}
+#no3 {
+    grid-area: 2/ 2/ 3/ 1;
+}
+#no4 {
+    grid-area: 2/ 2/ 3/ 4;
+}
+#no5 {
+    grid-area: 1/ 4/ 2/ 5;
+}
+#no6 {
+    grid-area: 2/ 4/ 4/ 5;
+}
